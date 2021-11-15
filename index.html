@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <section class="money">
+        <div class="container">
+            <h1 class="text-info text-center mt-2">Currency Converter</h1>
+            <p class="text-center text-white">Check live foreign currency exchange rates</p>
+
+            <div class="money__inner border mt-5 p-5 ">
+                <h3 class="money__headding text-center text-warning">Moneygramm</h3>
+                <form class="money__form ">
+
+                    <label class="label-input form-label text-warning h4 me-3">
+                        Amount
+                        <input class="money__input form-control  mt-1" type="number" name="user_money" placeholder="00"
+                            required>
+                    </label>
+
+                    <div class="select-inner">
+                        <label class="label-select-from text-warning h4">
+                            From
+                            <select class="money__select__from form-select mt-1 " name="user_change">
+                                <option value="usd">USD</option>
+                                <option value="euro">ERO</option>
+                                <option value="ruble">RUB</option>
+                                <option value="so'm">UZS</option>
+
+                            </select>
+                        </label>
+                        <button class="money_selectbtn btn border rounded-circle ms-2 me-2">
+                        </button>
+                        <label class="label-select-to text-warning h4">
+                            To
+                            <select class="money__select__to form-select mt-1" name="user_changee">
+                                <option value="usd">USD</option>
+                                <option value="euro">ERO</option>
+                                <option value="ruble">RUB</option>
+                                <option value="so'm">UZS</option>
+                            </select>
+                        </label>
+                    </div>
+
+                    <div class="result-box">
+                        <input class="resalt-box__input form-control mb-2" type="text" placeholder="00">
+                    </div>
+
+                    <button class="money_btn btn btn-primary">Convert</button>
+
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

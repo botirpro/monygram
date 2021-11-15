@@ -1,0 +1,70 @@
+body{
+    background-image: url(../images/bgimg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.money__inner{
+    display: block;
+    width: 100%;
+    max-width: 448px;
+    overflow: hidden;
+    color: rgb(45, 53, 64);
+    background-color: rgba(255, 255, 255, 0.01);
+    /* border: 2px solid rgba(224, 217, 217, 0.06); */
+    border-radius: 10px;
+    
+    
+}
+
+
+
+.money__headding{
+    color: #F7A13A;
+}
+
+.label-input{
+    width: 100%;
+    max-width: 350px;
+}
+
+.label-input:hover{
+    color: rgb(45, 53, 64);
+}
+
+.label-select-from{
+    width: 100%;
+    max-width: 134px;
+}
+
+.label-select-to{
+    width: 100%;
+    max-width: 134px;
+}
+
+.resalt-box__input{
+    width: 100%;
+    max-width: 350px;
+}
+
+.money_btn{
+    display: block;
+    margin-left: auto;
+    width: 100%;
+    max-width: 100px;
+}
+ 
+@media only screen and (max-width: 471px){
+    .label-select-from{
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .label-select-to{
+        width: 100%;
+        max-width: 400px;
+    }
+    .money_selectbtn{
+        display: none;
+    }
+} 
